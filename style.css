@@ -1,0 +1,59 @@
+body {  
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px
+}
+header{
+    border-bottom: solid 1px rgb(71, 9, 112);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(119, 34, 175);
+
+}
+
+.chamada {
+    background: rgb(138, 41, 138);
+    padding-bottom: 80px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.Texto{
+    margin-right: 15%;
+    
+}
+
+h1{
+    font-size: 37px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.categoria-video {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px
+}
+
+.categoria-video img {
+    opacity: 0.3;
+    height: 200px
+}
+.categoria-video img:hover {
+    opacity: 1.0;
+    bord: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(119, 34, 175);
+}
